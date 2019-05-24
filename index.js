@@ -11,11 +11,8 @@ function happyHolidaysTo(name) {
 happyHolidaysTo("you");
 
 //to wish certain holiday and person
-// function happyHolidayTo(holiday) {
-//   return ('Happy ${holiday}, ${name}!');
-// }
+function happyHolidayTo(holiday, name) {
+  return (`Happy ${holiday}, ${name}!`);
+}
 
-function happyHolidayTo(holiday, name){
-  return `Happy ${holiday}, ${name}!`;
-  
-
+happyHolidayTo("Independence Day", "name");
