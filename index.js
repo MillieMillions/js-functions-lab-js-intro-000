@@ -16,3 +16,10 @@ function happyHolidayTo(holiday, name) {
 }
 
 happyHolidayTo("Independence Day", "name");
+
+//holdidayCountdown
+function holidayCountdown (holiday, days) {
+  return (`It's ${days} days until ${holiday}!`);
+}
+
+holidayCountdown ('Christmas', '99')
